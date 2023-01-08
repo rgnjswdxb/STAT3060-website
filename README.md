@@ -4,5 +4,5 @@ creating a demo website for STAT3060
 
 ## Find my theme
 
-title: [My title]
-description: [I'm doing this because it's a homework]
+title: My title
+description: I'm doing this because it's a homework
