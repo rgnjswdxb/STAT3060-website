@@ -1,2 +1,7 @@
 # STAT3060-website
-creating a website for STAT3060
+creating a demo website for STAT3060
+<hr>
+
+## Find my theme
+
+1.
