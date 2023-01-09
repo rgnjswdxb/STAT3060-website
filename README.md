@@ -27,10 +27,13 @@ So a possible solution is that we can make new specified categories for resident
 ##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
 For this part, we used machine learning to get the work done. Basically our thought is to identify how 
 We first divided the whole content into many word blocks. 放图
-Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases. 放图
-for more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
-At the next step, NBC(Naive Bayes Classifier) plays the critical role. 
 
+Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases. 放图
+
+for more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
+
+At next step, MNB(Multinomial Naive Bayes Classifier) plays the critical role. Briefly, with the calculated TF-IDF value, MNB helps us compute the conditional probabilities of occurrence of different events based on the probabilities of occurrence of each individual event. Naive Bayes classifiers have worked quite well in many real-world situations, famously document classification and spam filtering. They require a small amount of training data to estimate the necessary parameters.
+for more details, please refer to https://www.geeksforgeeks.org/naive-bayes-classifiers/
 
 
 
