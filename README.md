@@ -20,15 +20,18 @@ For the problems mentioned above, our solutions are given below:
 
 ##### 2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
 放图 With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
-Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图
-So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 放图
+Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图(看到小区乱停车 居民困惑自己应该选哪条 小区管理还是街面)
+So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 放图(居民不再困惑 直接选停车)
 
 
 ##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
+For this part, we used machine learning to get the work done. Basically our thought is to identify how 
+We first divided the whole content into many word blocks. 放图
+Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases.
+for more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
 
-
-2. And the average time required for each type of case: 放图 Then the residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
-3. For the automiatic classification and assignment, we use machine learning to get the work done. Let's introduce two cores: TF-IDF(Term Frequency-Inverse Document Frequency) and NBC(Naive Bayes Classifier).分类算法的内容是要求给定特征，让我们得出类别，这也是所有分类问题的关键。那么如何由指定特征，得到我们最终的类别，也是我们下面要讲的，每一个不同的分类算法，对应着不同的核心思想。
+Let's introduce two cores: TF-IDF(Term Frequency-Inverse Document Frequency) and NBC(Naive Bayes Classifier).
+TF-IDF分类算法的内容是要求给定特征，让我们得出类别，这也是所有分类问题的关键。那么如何由指定特征，得到我们最终的类别，也是我们下面要讲的，每一个不同的分类算法，对应着不同的核心思想。
 
 
 
