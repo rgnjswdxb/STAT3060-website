@@ -14,12 +14,16 @@ However, we noticed some problems:
 ### Our ideas
 For the problems mentioned above, our solutions are given below:
 
+##### It should be noted that due to the lack of data provided by Zhongtian Community, we additionally supplement the data recorded by Sanya "12345" citizen support hotline since both Fuzhou and Sanya belong to Second-tier City and they are tourist cities. 
+
 ##### 1. Visualization of quarterly summary of cases closed 简单放一张月度总结的可视化图
 展示完整报告 再简单介绍一下整体情况
 
 
 ##### 2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
-放图 With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
+放图 Because we didn't get the data from Zhongtian Community, we used Sanya's data.
+
+With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
 
 Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图(看到小区乱停车 居民困惑自己应该选哪条 小区管理还是街面)
 
@@ -28,16 +32,19 @@ So a possible solution is that we can make new specified categories for resident
 
 ##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
 For this part, we used machine learning to get the work done. Basically our thought is to identify how 
+
 We first divided the whole content into many word blocks. 放图
 
 Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases. 放图
 
 for more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
 
-At next step, MNB(Multinomial Naive Bayes Classifier) plays the critical role. Briefly, with the calculated TF-IDF value, MNB helps us compute the conditional probabilities of occurrence of different events based on the probabilities of occurrence of each individual event. Naive Bayes classifiers have worked quite well in many real-world situations, famously document classification and spam filtering. They require a small amount of training data to estimate the necessary parameters.
+At next step, MNB(Multinomial Naive Bayes Classifier) plays the critical role. Briefly, with the calculated TF-IDF value, MNB helps us compute the conditional probabilities of occurrence of different events based on the probabilities of occurrence of each individual event. Actually, Naive Bayes classifiers have worked quite well in many real-world situations, famously document classification and spam filtering. They require a small amount of training data to estimate the necessary parameters.
+
 for more details, please refer to https://www.geeksforgeeks.org/naive-bayes-classifiers/
 
-
+The method is completed, problem comes to the data:
+放一些图
 
 ## Embed a video
 
