@@ -37,7 +37,9 @@ So a possible solution is that we can make new specified categories for resident
 ##### 3. Automatic classification and assignment of cases
 For this part, we used machine learning to get the work done. Basically our thought is to identify the importance of each word for each text and the probability that the text belongs to each category, to get the final results.
 
-We first divided the whole content into many word blocks. 放图
+We first divided the whole content into many word blocks. 
+
+![imagefck](fck.jpg)
 
 Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of . 放图
 
