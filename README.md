@@ -1,13 +1,14 @@
 # STAT3060-website
-    In STAT3060, we focus on how to use computational thinking and real data to quantitatively solve social science problems. 
-    Through Python and its application in data science, we will take the smart community of Fuzhou as an example, discover problems, collect and combine data from end users, enterprises, governments and other parties and propose solutions. 
-    This website shows how we improve the residential support function of the wechat public platform called "问需金山".
+In STAT3060, we focus on how to use computational thinking and real data to quantitatively solve social science problems. 
+Through Python and its application in data science, we will take the smart community of Fuzhou as an example, discover problems, collect and combine data from end users, enterprises, governments and other parties and propose solutions. 
+This website shows how we improve the residential support function of the wechat public platform called "问需金山".
 <hr>
 
 ### Introduction
-
-title: My title
-description: I'm doing this because it's a homework
+"你呼我应", the residential support function of "问需金山" mainly provides a platform for residents to make complaints and suggestions to the community more easily. As long as one fills out the form as required, the complaint will be uploaded and sent to relevant staff, then he or she may get the reply in several days.
+However, we noticed some problems:
+1. Residents can only see the recently closed cases. There's no monthly or quarterly summary of cases closed available for residents. 
+2. Each time a new case is uploaded, the staff member will manually judge which related department it should be transferred to. What we are going to do is to simplify this step: for example, we can abstract some key words from the case descriptions to categorize these cases into some specified groups. In this way, we can better help classify and assign the cases.
 
 ## Embed a video
 
