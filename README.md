@@ -1,4 +1,4 @@
-# STAT3060-website
+## STAT3060-website
 - In STAT3060, we focus on how to use computational thinking and real data to quantitatively solve social science problems. 
 - Through Python and its application in data science, we will take the smart community of Fuzhou as an example, discover problems, collect and combine data from end users, enterprises, governments and other parties and propose solutions. 
 - This website shows how we improve the residential support function of the wechat public platform called "问需金山".
@@ -14,8 +14,15 @@ However, we noticed some problems:
 ### Our ideas
 For the problems mentioned above, our solutions are given below:
 1. Visualization of quarterly summary of cases closed 简单放一张月度总结的可视化图
-2. Quickly access to the average time required for each type of case 简单防一张平均时间的可视化图
-3. Automatic classification and assignment of cases
+2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
+3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
+
+### How to realize?
+1. The quarterly summary of cases closed is directly shown. 展示完整报告 再简单介绍一下整体情况
+2. And the average time required for each type of case: 放图 Then the residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
+3. 分类算法的内容是要求给定特征，让我们得出类别，这也是所有分类问题的关键。那么如何由指定特征，得到我们最终的类别，也是我们下面要讲的，每一个不同的分类算法，对应着不同的核心思想。
+
+
 
 ## Embed a video
 
