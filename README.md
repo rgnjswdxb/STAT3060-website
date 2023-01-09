@@ -13,14 +13,18 @@ However, we noticed some problems:
 
 ### Our ideas
 For the problems mentioned above, our solutions are given below:
-#### 1. Visualization of quarterly summary of cases closed 简单放一张月度总结的可视化图
+
+##### 1. Visualization of quarterly summary of cases closed 简单放一张月度总结的可视化图
 展示完整报告 再简单介绍一下整体情况
 
 
-#### 2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
-放图 Then the residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
+##### 2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
+放图 With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
+Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图
+So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 放图
 
-#### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
+
+##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
 
 
 2. And the average time required for each type of case: 放图 Then the residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
