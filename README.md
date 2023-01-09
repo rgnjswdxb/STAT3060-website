@@ -8,7 +8,7 @@
 "你呼我应", the residential support function of "问需金山" mainly provides a platform for residents to make complaints and suggestions to the community more easily. As long as one fills out the form as required, the complaint will be uploaded and sent to relevant staff, then he or she may get the reply in several days.
 However, we noticed some problems:
 1. Residents can only see the recently closed cases. There's no monthly or quarterly summary of cases closed available for residents. 放“最近办结”图
-2. Residents don't get a quick idea of how much time each case takes for related department to resolve. 放几张截屏处理时间图 说明其不明显
+2. Residents don't get a quick idea of how much time each case takes for related department to resolve. ![imagebmx](sjbmx.jpg)
 3. Each time a new case is uploaded, the staff member will manually identify the category and which related department it should be transferred to. What we are going to do is to simplify this step: for example, we can abstract some key words from the case descriptions to categorize these cases into some specified groups. In this way, we can better help classify and assign the cases. 
 
 ![image1](1.jpg)
