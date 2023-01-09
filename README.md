@@ -1,8 +1,10 @@
 # STAT3060-website
-In STAT3060, we focus on how to use computational thinking and real data to quantitatively solve social science problems. Through Python and its application in data science, we will take the smart community of Fuzhou as an example, discover problems, collect and combine data from end users, enterprises, governments and other parties and propose solutions. This website shows how we improve the residential support function of the wechat public platform called "问需金山".
+    In STAT3060, we focus on how to use computational thinking and real data to quantitatively solve social science problems. 
+    Through Python and its application in data science, we will take the smart community of Fuzhou as an example, discover problems, collect and combine data from end users, enterprises, governments and other parties and propose solutions. 
+    This website shows how we improve the residential support function of the wechat public platform called "问需金山".
 <hr>
 
-## Find my theme
+### Introduction
 
 title: My title
 description: I'm doing this because it's a homework
