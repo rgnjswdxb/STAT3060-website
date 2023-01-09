@@ -11,6 +11,8 @@ However, we noticed some problems:
 2. Residents don't get a quick idea of how much time each case takes for related department to resolve. 放几张截屏处理时间图 说明其不明显
 3. Each time a new case is uploaded, the staff member will manually identify the category and which related department it should be transferred to. What we are going to do is to simplify this step: for example, we can abstract some key words from the case descriptions to categorize these cases into some specified groups. In this way, we can better help classify and assign the cases. 
 
+![image1](1.jpg)
+
 ### Our ideas
 For the problems mentioned above, our solutions are given below:
 
@@ -25,12 +27,14 @@ For the problems mentioned above, our solutions are given below:
 
 With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
 
-Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图(看到小区乱停车 居民困惑自己应该选哪条 小区管理还是街面)
+Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 
+![imagetime1](wp-data1.jpg)
 
-So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 放图(居民不再困惑 直接选停车)
+So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 
+![imagetime2](wp-data2.jpg)
 
 
-##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
+##### 3. Automatic classification and assignment of cases
 For this part, we used machine learning to get the work done. Basically our thought is to identify how 
 
 We first divided the whole content into many word blocks. 放图
