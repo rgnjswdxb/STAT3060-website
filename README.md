@@ -27,10 +27,9 @@ So a possible solution is that we can make new specified categories for resident
 ##### 3. Automatic classification and assignment of cases 可以搞一张不要人工改为电脑的图
 For this part, we used machine learning to get the work done. Basically our thought is to identify how 
 We first divided the whole content into many word blocks. 放图
-Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases.
+Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of cases. 放图
 for more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
-
-Let's introduce two cores: TF-IDF(Term Frequency-Inverse Document Frequency) and NBC(Naive Bayes Classifier).
+At the next step, NBC(Naive Bayes Classifier) plays the critical role. 
 TF-IDF分类算法的内容是要求给定特征，让我们得出类别，这也是所有分类问题的关键。那么如何由指定特征，得到我们最终的类别，也是我们下面要讲的，每一个不同的分类算法，对应着不同的核心思想。
 
 
