@@ -20,7 +20,9 @@ For the problems mentioned above, our solutions are given below:
 
 ##### 2. Quickly access to the average time required for each type of case 简单放一张平均时间的可视化图
 放图 With this function, residents just need to choose the type... click! Getting the average time required, they will have a general idea of how long their complaints will be resolved.
+
 Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. They might be confused sometimes: 放图(看到小区乱停车 居民困惑自己应该选哪条 小区管理还是街面)
+
 So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 放图(居民不再困惑 直接选停车)
 
 
