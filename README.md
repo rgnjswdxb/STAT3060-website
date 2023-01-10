@@ -56,10 +56,23 @@ The method is completed, problem comes behind:
   For example, our dataset is imbalanced. If we classify complaint information in “你呼我应” according to the type of incident, we can observe a big difference that "小区管理类" accounts for 63.3% of the total samples, while "消防安全类" only accounts for 2.9%. After calculating the error rate of predicting each category, the error rate of predicting "街面秩序类" is the largest, which is 32.4%. Besides, 81.8% of the wrong predictions are "小区管理类", so this category imbalance has a negative impact on the classification results. (It is worth mentioning that "消防安全类", the category with the smallest percentage, is not the category with the largest error rate, probably because the vocabulary used in the "消防安全类" has great characteristics that clearly distinguish this category from other categories. For future improvement, we can adopt undersampling, oversampling, or changing the model to solve the sample imbalance problem. 
 
   For more details, please refer to https://www.cnblogs.com/zhangxianrong/p/15214399.html
+  
+- TF-IDF is not perfect. It only uses word frequency information as a measurement of the importance of feature items in the data set. This results in the inability to correctly reflect the differences between documents of different categories. As we said above, TF-IDF doesn't work well when it comes to unbalanced data. Therefore, we introduce an improved method, FDCD-TF-IDF, based on word frequency distribution and category distribution, proposed by Haoying Wu and Na Yuan from Wuhan University of Technology. The experimental results show that this improved algorithm can "achieve better classification results on both balanced and unbalanced text data sets"(Wu and Yuan 212).
+
+  FDCD-TF-IDF reflects the correlation between the feature items and the categories, and the category information of the feature items, thus solving the limitations of the original TF-IDF algorithm. The flow chart is given below(Wu and Yuan 213).
+  
+  ![imageflow](flow.jpg)
+  
+  For more details, please refer to https://doi.org/10.1145/3232116.3232152
+
+- MNB Classifier can be improved as well.
 
 
 
 
+### Works Cited
+1. Frank, Eibe, and Remco R. Bouckaert. "Naive bayes for text classification with unbalanced classes." European Conference on Principles of Data Mining and Knowledge Discovery. Springer, Berlin, Heidelberg, 2006.
+2. Wu, Haoying, and Na Yuan. "An Improved TF-IDF algorithm based on word frequency distribution information and category distribution information." Proceedings of the 3rd International Conference on Intelligent Information Processing. 2018.
 
 
 
