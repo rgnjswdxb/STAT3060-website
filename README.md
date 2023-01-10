@@ -48,7 +48,9 @@ We first divided the whole content into many word blocks.
 
 ![imagefck](fck.jpg)
 
-Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of . 放图
+Then calculate the TF-IDF value of each block. Here, TF-IDF(Term Frequency-Inverse Document Frequency) is a statistical measure that evaluates how relevant a word is to the content of one case in a collection of cases. This is done by multiplying two metrics: how many times a word appears in one case, and the inverse frequency of the word across a set of contents of cases. 
+![imagecp1](cp1.png)
+![imagecp2](cp2.jpg)
 
 For more details, please refer to https://monkeylearn.com/blog/what-is-tf-idf/
 
