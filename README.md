@@ -80,6 +80,7 @@ Of course, there's still room for improvement, the current categories are not so
 
 So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 
 ![imagetime2](wp-data2.jpg)
+再差异图
 
 ### Conclusion
 Basically, we proposed three suggestions to the current functions of "你呼我应", two for improving residents' convenience, monthly summary of cases closed and quick access to the average time required for each type of case; one for increasing the work efficiency of community workers, automatic classification and assignment of cases. All three still has a lot to improve, but we hope that currently these three functions can really help a bit.
