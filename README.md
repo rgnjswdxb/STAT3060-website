@@ -5,6 +5,8 @@
 <hr>
 
 ### Introduction
+![imagenhwy](nhwy.jpg)
+
 "你呼我应", the residential support function of "问需金山" mainly provides a platform for residents to make complaints and suggestions to the community more easily. As long as one fills out the form as required, the complaint will be uploaded and sent to relevant staff, then he or she may get the reply in several days.
 However, we noticed some problems:
 1. Residents can only see the recently closed cases. There's no monthly or quarterly summary of cases closed available for residents. 
@@ -75,7 +77,7 @@ The method is completed, problem comes behind:
   For more details, please refer to https://doi.org/10.1007/11871637_49
 
 ### Conclusion
-Basically, we proposed three suggestions to the current functions of "你呼我应", two for improving residents' convenience, monthly summary of cases closed and quick access to the average time required for each type of case; one for increasing the work efficiency of community workers, automatic classification and assignment of cases. All three still has a lot to improve, but We hope that currently these three functions can really help a bit.
+Basically, we proposed three suggestions to the current functions of "你呼我应", two for improving residents' convenience, monthly summary of cases closed and quick access to the average time required for each type of case; one for increasing the work efficiency of community workers, automatic classification and assignment of cases. All three still has a lot to improve, but we hope that currently these three functions can really help a bit.
 
 ### Works Cited
 1. Frank, Eibe, and Remco R. Bouckaert. "Naive bayes for text classification with unbalanced classes." European Conference on Principles of Data Mining and Knowledge Discovery. Springer, Berlin, Heidelberg, 2006.
