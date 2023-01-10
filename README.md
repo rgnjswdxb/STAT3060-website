@@ -57,16 +57,17 @@ The method is completed, problem comes behind:
 
   For more details, please refer to https://www.cnblogs.com/zhangxianrong/p/15214399.html
   
-- TF-IDF is not perfect. It only uses word frequency information as a measurement of the importance of feature items in the data set. This results in the inability to correctly reflect the differences between documents of different categories. As we said above, TF-IDF doesn't work well when it comes to unbalanced data. Therefore, we introduce an improved method, FDCD-TF-IDF, based on word frequency distribution and category distribution, proposed by Haoying Wu and Na Yuan from Wuhan University of Technology. The experimental results show that this improved algorithm can "achieve better classification results on both balanced and unbalanced text data sets"(Wu and Yuan 212).
+- TF-IDF is not perfect. It only uses word frequency information as a measurement of the importance of feature items in the data set. This results in the inability to correctly reflect the differences between documents of different categories. As we said above, TF-IDF doesn't work well when it comes to unbalanced data. Therefore, we introduce an improved method, FDCD-TF-IDF, based on word frequency distribution and category distribution, proposed by Haoying Wu and Na Yuan from Wuhan University of Technology. The experimental results show that this improved algorithm can "achieve better classification results on both balanced and unbalanced text data sets" (Wu and Yuan 212).
 
-  FDCD-TF-IDF reflects the correlation between the feature items and the categories, and the category information of the feature items, thus solving the limitations of the original TF-IDF algorithm. The flow chart is given below(Wu and Yuan 213).
+  FDCD-TF-IDF reflects the correlation between the feature items and the categories, and the category information of the feature items, thus solving the limitations of the original TF-IDF algorithm. The flow chart is given below (Wu and Yuan 213).
   
   ![imageflow](flow.jpg)
   
   For more details, please refer to https://doi.org/10.1145/3232116.3232152
 
-- MNB Classifier can be improved as well.
+- MNB Classifier can be improved as well. Eibe Frank from University of Waikato and Remco R. Bouckaert from Xtal Mountain Information Technology proposed an appropriate correction by "adjusting attribute priors" (Frank and R. Bouckaert 503). With this correction implemented as another data normalization step, they showed that "it can significantly improve the area under the ROC curve" (Frank and R. Bouckaert 503).
 
+  For more details, please refer to https://doi.org/10.1007/11871637_49
 
 
 
