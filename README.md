@@ -77,10 +77,10 @@ With this function, we supposed that once the resident fills in the form as requ
 
 Of course, there's still room for improvement, the current categories are not so clear that can help residents as expected. As the categories might be too broad, containing too many various cases, which becomes confused sometimes: 
 ![imagetime1](wp-data1.jpg)
-
-So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 
 ![imagetime2](wp-data2.jpg)
-再差异图
+So a possible solution is that we can make new specified categories for residents. Using keywords such as "rubbish(垃圾)", "parking(停车)", "cube(管道)", etc, to do the classification might have a better effect. 
+![imagetimesol](timesol.jpg)
+
 
 ### Conclusion
 Basically, we proposed three suggestions to the current functions of "你呼我应", two for improving residents' convenience, monthly summary of cases closed and quick access to the average time required for each type of case; one for increasing the work efficiency of community workers, automatic classification and assignment of cases. All three still has a lot to improve, but we hope that currently these three functions can really help a bit.
