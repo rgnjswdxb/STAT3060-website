@@ -66,6 +66,8 @@ The method is completed, problem comes behind:
 - MNB Classifier can be improved as well. Eibe Frank from University of Waikato and Remco R. Bouckaert from Xtal Mountain Information Technology proposed an appropriate correction by "adjusting attribute priors" (Frank and R. Bouckaert 503). With this correction implemented as another data normalization step, they showed that "it can significantly improve the area under the ROC curve" (Frank and R. Bouckaert 503).
 
   For more details, please refer to https://doi.org/10.1007/11871637_49
+  
+- Another option is to add more parameters. For example, in Zhongtian Community's data, it's hard to distinguish "小区管理" and "街面秩序" merely based on the content of residents' complaints. Hence we can use the location uploaded by residents to help: if the incident happened in the community, it's more like to be classified into "小区管理" instead of others.
 
 
 ##### 2.2. Automatic classification and average time of cases (facing residents)
